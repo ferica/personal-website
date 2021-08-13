@@ -1,0 +1,129 @@
+.nav-container #links {
+    background: transparent;
+}
+
+.nav-container #logo {
+    position: fixed;
+    cursor: pointer;
+
+    padding: 20px;
+    margin-left: 25px;
+    /* delete this part later after you find an actual logo */
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links ul, .mobile-links ul {
+    list-style-type: none;
+}
+
+.links li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.links li a:hover, .mobile-links li a:hover {
+    color: rgba(207, 207, 207, 0.719);
+}
+
+nav.links {
+    display: inline-block;
+    position: fixed;
+    top: 220px;
+}
+
+#resume-btn {
+    font-size: 16px;
+    margin-top: 13px;
+    color: white;
+    background-color: #0090BD;
+    border-radius: 20px;
+    padding: 8px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+}
+
+button#resume-btn:hover {
+    background-color: #0091bd9d;
+}
+
+.hamburger-menu-icon {
+    display: none;
+    position: fixed;
+    color: white;
+    cursor: pointer;
+    z-index: 1; /* so that it doesn't get covered by background */
+
+    padding: 20px;
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    z-index: 1; /* so that it doesn't get covered by background */
+    background-color: rgba(19, 18, 18, 0.863);
+
+    height: 100%;
+    width: 50%;
+}
+
+.x-icon {
+    cursor: pointer;
+    color: white;
+    padding: 20px;
+}
+
+.mobile-links li a {
+    text-decoration: none;
+    padding: 15px 10px;
+    color: white;
+    cursor: pointer;
+
+    font-size: 20px;
+}
+
+.mobile-links li {
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-links ul {
+    margin-top: 100px;
+}
+
+.mobile-links #resume-btn {
+    font-size: 20px;
+    padding: 10px;
+    width: 100px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav-container #logo {
+        margin: 0;
+        background-color: black;
+        /* this centers an absolute position element */
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .hamburger-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .links ul {
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+.projects-page {
+    background-color: #00475E;
+
+    float: left;
+    width: 100vw;
+}
+
+.projects-page p {
+    margin-left: 290px;
+}

@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import { Redirect, BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+
+import About from './components/About/About';
+import Experience from './components/Experience/Experience';
+import Projects from './components/Projects/Projects';
+import Painting from './components/Painting/Painting';
+import PageNotFound from './components/PageNotFound/PageNotFound';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Router>
+          <Switch> 
+
+            <Route exact path="/">  
+              {/* putting Navbar in here so it only shows in this route (don't want it in painting and 404) */}
+              <Navbar /> 
+
+              {/* for page jumping */}
+              <a id='about'> <About /> </a>
+              <a id='experience'> <Experience/> </a>
+              <a id='projects'> <Projects /> </a>
+            </Route>  
+
+            <Route exact path="/painting" component={ Painting } /> 
+
+            {/* if route doesn't exist, redirect to 404 page */}
+            <Route path="*" component={ PageNotFound } /> 
+            <Redirect to="*" />
+
+          </Switch>
+        </Router>
     </div>
   );
 }

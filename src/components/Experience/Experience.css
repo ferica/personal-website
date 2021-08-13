@@ -1,0 +1,10 @@
+.experience-page {
+    background-color: grey;
+
+    float: left;
+    width: 100vw;
+}
+
+.experience-page p {
+    margin-left: 290px;
+}
