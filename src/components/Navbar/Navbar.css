@@ -5,14 +5,12 @@
 .nav-container #logo {
     position: fixed;
     cursor: pointer;
-
+    color: pink;
     padding: 20px;
     margin-left: 25px;
-    /* delete this part later after you find an actual logo */
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 20px;
+}
+#logo a:visited {
+    color: pink;
 }
 
 .links ul, .mobile-links ul {
@@ -109,6 +107,8 @@ button#resume-btn:hover {
     .nav-container #logo {
         margin: 0;
         background-color: black;
+        z-index: 1; /* because timeline is overlapping the navbar */
+        
         /* this centers an absolute position element */
         left: 0;
         right: 0;

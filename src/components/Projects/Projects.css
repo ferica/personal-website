@@ -5,6 +5,21 @@
     width: 100vw;
 }
 
-.projects-page p {
-    margin-left: 290px;
+.projects-container {
+    margin: 100px auto; /* margin top and bottom are 100px and auto centers the content horizontally */
+    width: 50%; /* auto takes up 50% of the space */
+}
+
+.projects-container #title {
+    color: #FCFF5F;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.projects-container #grey-text {
+    color: #939393;
+    font-weight: bold;
+    font-size: 33px;
+    margin-top: -25px;
 }

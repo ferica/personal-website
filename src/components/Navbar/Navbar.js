@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoClose } from 'react-icons/io5';
 import { IconContext } from "react-icons"; // for react icon styling
+import FavoriteIcon from '@material-ui/icons/Favorite';
 import { useState, useEffect, useRef } from 'react';
 
 
@@ -37,8 +38,9 @@ const Navbar = () => {
 
     return (
         <div className="nav-container">
-            <p id="logo"><a href="/">logo</a></p>
+            <p id="logo"><a href="/"><FavoriteIcon /></a></p>
             
+            {/* when in tablet/mobile view */}
             { menuIsOpen ? 
                 <div className="mobile-menu" ref={ref}>
                     <IconContext.Provider value={{className: "x-icon"}}>
@@ -63,7 +65,7 @@ const Navbar = () => {
                 </div>
             }  
 
-
+            {/* when in desktop view */}
             <nav className="links">
                 <ul>
                     <li><a href='/#about'>About</a></li>
@@ -77,5 +79,4 @@ const Navbar = () => {
       );
 }
 
- 
 export default Navbar;

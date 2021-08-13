@@ -1,0 +1,45 @@
+.contact-page {
+    background-color: black;
+    text-align: center;
+
+    float: left;
+    width: 100vw;
+}
+
+.contact-container {
+    margin: 100px auto; /* margin top and bottom are 100px and auto centers the content horizontally */
+    width: 50%; /* auto takes up 50% of the space */
+    
+}
+
+.contact-container #title {
+    color: #FCFF5F;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.contact-container #grey-text {
+    color: #939393;
+    font-weight: bold;
+    font-size: 33px;
+    margin-top: -25px;
+}
+
+.contact-container .info {
+    padding-top: 50px;
+}
+
+.contact-container a {
+    color: white;
+}
+
+.contact-container a.icon:hover {
+    color: #0090BD;
+}
+
+#copyright {
+    color: #939393;
+    font-size: 13px;
+    padding-top: 200px;
+}

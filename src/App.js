@@ -7,6 +7,7 @@ import Experience from './components/Experience/Experience';
 import Projects from './components/Projects/Projects';
 import Painting from './components/Painting/Painting';
 import PageNotFound from './components/PageNotFound/PageNotFound';
+import Contact from './components/Contact/Contact';
 
 
 function App() {
@@ -18,11 +19,11 @@ function App() {
             <Route exact path="/">  
               {/* putting Navbar in here so it only shows in this route (don't want it in painting and 404) */}
               <Navbar /> 
-
               {/* for page jumping */}
               <a id='about'> <About /> </a>
               <a id='experience'> <Experience/> </a>
               <a id='projects'> <Projects /> </a>
+              <a id='contact'> <Contact /> </a>
             </Route>  
 
             <Route exact path="/painting" component={ Painting } /> 

@@ -8,7 +8,7 @@ const About = () => {
         <div className="about-page">
             <div className="about-container">
                 <p id='title'> About </p>
-                
+
                 <div className='aligned'>
                     <img src={Ferica} alt='Ferica-img'/>
            
@@ -37,13 +37,9 @@ const About = () => {
                         <li>Linux</li>
                         <li>Figma</li>
                     </ul>
-
                 </p>
-
-                
             </div>
         </div>
-
      );
 }
  

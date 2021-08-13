@@ -5,6 +5,39 @@
     width: 100vw;
 }
 
-.experience-page p {
-    margin-left: 290px;
+.experience-container {
+    margin: 100px auto; 
+    width: 60%;  
+}
+
+.experience-container #title {
+    color: #FCFF5F;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.timeline-container a:visited {
+    color: white;
+}
+.timeline-container a:hover {
+    color: rgb(224, 223, 223);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .experience-container {
+        width: 100%;  
+    }    
+
+    .timeline-container span.role {
+        font-size: 19px;
+    }
+    .timeline-container span.date {
+        font-size: 15px;
+    }
+    .timeline-container a {
+        font-size: 18px;
+    }
 }
