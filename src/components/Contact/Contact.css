@@ -7,9 +7,8 @@
 }
 
 .contact-container {
-    margin: 100px auto; /* margin top and bottom are 100px and auto centers the content horizontally */
+    margin: 100px auto 50px; /* top margin is 100px, bottom is 50px, and auto centers the content horizontally */
     width: 50%; /* auto takes up 50% of the space */
-    
 }
 
 .contact-container #title {

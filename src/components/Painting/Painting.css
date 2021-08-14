@@ -1,0 +1,33 @@
+.painting-page {
+  background-image: url('./wood.jpg'); 
+  text-align: center;
+  
+  float: left;
+  width: 100vw;
+  height: 100vh;
+}
+
+.painting-container {
+  margin: 40px auto;
+}
+
+.painting-container #title {
+    /* color: #FCFF5F; */
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.painting-container #caption {
+  margin-top: -25px;
+  color: black;
+}
+
+.painting-container img {
+  width: 250px;
+}
+
+.art-container {
+  background-image: url('./wood.jpg'); 
+  padding: 2% 10%;
+}

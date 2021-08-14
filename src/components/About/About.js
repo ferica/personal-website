@@ -19,7 +19,7 @@ const About = () => {
                 </div>
               
                 <p id='intro'>
-                    Hi! I'm currently an undergraduate double majoring in Computer Science and Cognitive Science at UC Davis.<br/><br/>
+                    Hi! I'm currently an undergraduate double majoring in Computer Science and Cognitive Science at <a href="https://www.ucdavis.edu/">UC Davis</a>.<br/><br/>
 
                     I'm interested in how humans interact with technology and using that knowledge to implement a user-friendly reality. 
                     My aspirations lie in, but are not limited to, software, web development, UI/UX and HCI.<br/><br/>
