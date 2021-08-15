@@ -24,7 +24,7 @@ const About = () => {
                     I'm interested in how humans interact with technology and using that knowledge to implement a user-friendly reality. 
                     My aspirations lie in, but are not limited to, software, web development, UI/UX and HCI.<br/><br/>
 
-                    During my free time, I enjoy <Link exact to='/painting'>painting</Link> and playing the guitar!<br/>
+                    Something I enjoy doing during my free time is <Link exact to='/painting'>painting</Link>!<br/>
                     ___________________<br/><br/>
 
                     Tools/technologies I’ve worked with:
