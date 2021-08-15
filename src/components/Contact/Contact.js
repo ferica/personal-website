@@ -16,7 +16,7 @@ const Contact = () => {
                     <p><a>Email: fericating2001@gmail.com</a></p>
                 </div>
 
-                <p id="copyright">Made by Ferica Ting &copy; 2021.</p>
+                <p id="copyright">Made with &hearts; by Ferica Ting &copy; 2021.</p>
             </div>
         </div>
      );

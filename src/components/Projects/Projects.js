@@ -1,7 +1,10 @@
 import './Projects.css';
+import Card from './Card';
 import Website_Image from './Website_Image.PNG';
 import placeholder from './placeholder.PNG';
+
 import GitHubIcon from '@material-ui/icons/GitHub';
+import CallMadeIcon from '@material-ui/icons/CallMade';
 
 
 const Projects = () => {
@@ -10,47 +13,21 @@ const Projects = () => {
             <div className="projects-container">
                 <p id="title">Projects</p>
                 <p id="grey-text">Check out some of my work!</p>
-
-
-
                 
                 <div className="cards-container">
-                    <div class="card">
-                        <img src={Website_Image} alt='Website-image'/>
-                        
-                        <div class="card-text">
-                            <h4>Personal Website</h4>
-                            <button>More details</button>
-                        </div>
-                    </div>
+                    <Card image={Website_Image} 
+                    projectName="Personal Website" 
+                    description="Designed and implemented my own personal website to showcase my resume."
+                    tools="Javascript, HTML/CSS, React.js"
+                    github={true} view={true} 
+                    githubLink="https://github.com/ferica/personal-website"
+                    viewLink="/" />
 
-                    <div class="card">
-                        <img src={placeholder} alt='painting1'/>
-                        <div class="card-text">
-                            <h4>placeholder</h4>
-                            <button>More details</button> 
-                        </div>
-                    </div>
+                    <Card image={placeholder} projectName="Placeholder" description="testing" />
+                    <Card image={placeholder} projectName="Placeholder" description="testing" />
 
-                    <div class="card">
-                        <img src={placeholder} alt='painting1'/>
-                        <div class="card-text">
-                            <h4>placeholder</h4> 
-                            <button>More details</button> 
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src={placeholder} alt='painting1'/>
-                        <div class="card-text">
-                            <h4>placeholder</h4> 
-                            <button>More details</button>
-                        </div>
-                    </div>
-
+            
                 </div>
-
-
             </div>
         </div>
      );

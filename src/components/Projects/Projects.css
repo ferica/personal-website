@@ -7,7 +7,7 @@
 
 .projects-container {
     margin: 100px auto; /* margin top and bottom are 100px and auto centers the content horizontally */
-    width: 60%; /* auto takes up 50% of the space */
+    width: 60%; /* auto takes up 60% of the space */
 }
 
 .projects-container #title {
@@ -15,6 +15,7 @@
     font-weight: bold;
     font-size: 30px;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .projects-container #grey-text {
@@ -22,6 +23,7 @@
     font-weight: bold;
     font-size: 33px;
     margin-top: -25px;
+    text-align: center;
 }
 
 
@@ -39,8 +41,8 @@
     border-radius: 5px;
     background-color: white;
 
-    width:250px;
-    height:370px;
+    width: 250px;
+    height: 362px;
 
     margin-top: 20px;
     margin-right: 20px;
@@ -63,10 +65,18 @@
     padding: 2px 16px;
   }
 
+  .indiv-card {
+    display: flex;
+    justify-content: flex-start;
+  }
   .cards-container {
-      display: flex; 
+      /* display: flex; 
       flex-wrap: wrap;
-      justify-content: flex-start;
+      justify-content: flex-start; */
+
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
   }
 
   .card-text button {
@@ -76,8 +86,19 @@
     border: none;
     padding: 4px;
     width: 90px;
+    
   }
 
   .card-text button:hover {
     background-color: #0091bd71;
   }
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .projects-container {
+    width: 85%; 
+}
+
+}
