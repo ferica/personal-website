@@ -1,6 +1,7 @@
 import './Contact.css';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import FavoriteIcon from '@material-ui/icons/Favorite';
 
 const Contact = () => {
     return ( 
@@ -15,7 +16,7 @@ const Contact = () => {
                     <p><a>Email: fericating2001@gmail.com</a></p>
                 </div>
 
-                <p id="copyright">&copy; 2021. Designed and implemented by Ferica Ting.</p>
+                <p id="copyright">Made by Ferica Ting &copy; 2021.</p>
             </div>
         </div>
      );

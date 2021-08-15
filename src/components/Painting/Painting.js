@@ -17,7 +17,7 @@ const Painting = () => {
 
               <div className="text-container">
                 <p id="title">Ferica's Art Gallery<span id="logo"><a href="/"><FavoriteIcon /></a></span></p>
-                <p id="caption">Some of my paintings :)</p>
+                <p id="caption-text">Some of my paintings :)</p>
               </div>
 
               <div className="art-container">

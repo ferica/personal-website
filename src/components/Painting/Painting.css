@@ -18,13 +18,14 @@
     letter-spacing: 2px;
 }
 
-.painting-container #caption {
+.painting-container #caption-text {
   margin-top: -25px;
-  color: black;
+  font-size: 20px;
 }
 
 .painting-container img {
   width: 250px;
+  height: 250px;
 }
 
 .art-container {

@@ -25,10 +25,13 @@
 }
 
 .about-page img {
-    width: 30%;
-    height: auto;
-    border-radius: 120px;
-    /* float: left; so that image floats to the left of container */
+    /* width: 30%;
+    border-radius: 120px; */
+
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius: 100%;
 }
 
 .aligned div {
@@ -71,9 +74,9 @@
         width: 70%;
     }
 
-    .about-page img {
+    /* .about-page img {
         width: 40%;
-    }
+    } */
 }
 
 
@@ -83,9 +86,9 @@
         font-size: 25px;
     }
 
-    .about-page img {
+    /* .about-page img {
         width: 50%;
-    }
+    } */
 
     .aligned {
         flex-direction: column;
@@ -111,7 +114,7 @@
 }
 
 @media only screen and (max-width: 400px) {
-    .about-page img {
+    /* .about-page img {
         width: 70%;
-    }
+    } */
 }
