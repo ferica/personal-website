@@ -9,6 +9,12 @@ import { useState, useEffect, useRef } from 'react';
 
 
 const Navbar = () => {
+    
+    function openInNewTab(url) {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+      }
+
     const[menuIsOpen, setMenuIsOpen] = useState(false);
 
     function openMenu() {
@@ -53,7 +59,7 @@ const Navbar = () => {
                             <li><a href='/#experience'>Experience</a></li>
                             <li><a href='/#projects'>Projects</a></li>
                             <li><a href='/#contact'>Contact</a></li>
-                            <li><button id='resume-btn'> Resume </button></li>
+                            <li><button id='resume-btn' onClick={() => openInNewTab('https://docs.google.com/document/d/12dH9-D-9Cgz3IPD_GFRjEJy-EsVO_1lgg1gkc_2A968/edit?usp=sharing')}> Resume </button></li>
                         </ul>
                     </nav>
                 </div> :   
@@ -72,7 +78,7 @@ const Navbar = () => {
                     <li><a href='/#experience'>Experience</a></li>
                     <li><a href='/#projects'>Projects</a></li>
                     <li><a href='/#contact'>Contact</a></li>
-                    <button id='resume-btn'> Resume </button>
+                    <button id='resume-btn' onClick={() => openInNewTab('https://docs.google.com/document/d/12dH9-D-9Cgz3IPD_GFRjEJy-EsVO_1lgg1gkc_2A968/edit?usp=sharing')}> Resume </button>
                 </ul>
             </nav>
         </div>

@@ -1,13 +1,12 @@
-import './Modal.css';
+import './ProjectItem.css';
 import { useState, useEffect, useRef } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import CallMadeIcon from '@material-ui/icons/CallMade';
 import LocalOfferIcon from '@material-ui/icons/LocalOffer';
-import { pink } from '@material-ui/core/colors';
 
 
-const Card = (props) => {
+const ProjectItem = (props) => {
     
     const[modalIsOpen, setModalIsOpen] = useState(false);
     function openModal() {
@@ -60,15 +59,15 @@ const Card = (props) => {
     }
       
     return ( 
-        <div className="card-item">
+        <div className="project-item">
             <div className="indiv-card">
-            <div className="card">
-                <img src={props.image} alt='image'/>
-                <div className="card-text">
-                    <h4>{props.projectName}</h4>
-                    <button onClick={openModal}>View details</button>
-                </div>
-            </div>
+              <div className="card">
+                  <img src={props.image} alt='image'/>
+                  <div className="card-text">
+                      <h4>{props.projectName}</h4>
+                      <button onClick={openModal}>View details</button>
+                  </div>
+              </div>
             </div>
 
             { modalIsOpen ? 
@@ -78,7 +77,6 @@ const Card = (props) => {
                     <h4>{props.projectName}</h4>
                     <p>{props.description}</p> 
 
-                
                     <p className="tools"><span id="tag-icon"><LocalOfferIcon className={classes.tagIcon}/></span><span>{props.tools}</span></p>
                     <div className="icons">
                         <a href={props.githubLink}><Github icon={props.github} /></a>
@@ -91,4 +89,4 @@ const Card = (props) => {
      );
 }
  
-export default Card;
+export default ProjectItem;
