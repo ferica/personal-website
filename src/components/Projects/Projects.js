@@ -1,6 +1,7 @@
 import './Projects.css';
 import ProjectItem from './ProjectItem';
 import Website_Image from './Website_Image.PNG';
+import Ecommerce_Image from './Ecommerce_Image.PNG';
 import placeholder from './placeholder.PNG';
 
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -23,7 +24,16 @@ const Projects = () => {
                     githubLink="https://github.com/ferica/personal-website"
                     viewLink="/" />
 
-                    <ProjectItem image={placeholder} projectName="Placeholder" description="testing" />
+                    <ProjectItem image={Ecommerce_Image} 
+                    projectName="Ecommerce" 
+                    description="Implemented an ecommerce website that mimics some of the functionalities
+                    of sites like eBay. User information is logged and stored in a SQLite database."
+                    tools="Python (Django), HTML/CSS, SQLite" 
+                    github={true}
+                    githubLink="https://github.com/ferica/ecommerce" />
+
+
+
                     <ProjectItem image={placeholder} projectName="Placeholder" description="testing" />
          
                 </div>
