@@ -2,7 +2,3 @@
     /* gets rid of the horizontal scroll bar that is causing whitespace on the right */
     overflow-x: hidden;
 }
-
-* {
-    font-family: Apple Chancery, cursive;
-}
