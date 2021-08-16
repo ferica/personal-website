@@ -1,0 +1,75 @@
+.home-page {
+    background-image: url('./shooting-stars.gif');
+    color: white;
+
+    /* get rid of the margins from div */
+    float: left;
+    width: 100vw;
+    height: 100vh; 
+}
+
+/* .home-container {
+    margin: 100px auto;
+    width: 60%;
+} */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.typing-container {
+    width: 437px; 
+    animation: typing 2s steps(14), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-size: 4rem;
+}
+
+#typing-text {
+    margin: 0; /* to make the right border smaller */
+}
+
+
+@keyframes typing {
+    from {
+      width: 0
+    }
+}
+      
+@keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+
+
+@media only screen and (max-width: 530px) {
+    .typing-container {
+        font-size: 3rem;
+        width: 328px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

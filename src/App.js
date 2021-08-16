@@ -8,6 +8,7 @@ import Projects from './components/Projects/Projects';
 import Painting from './components/Painting/Painting';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Contact from './components/Contact/Contact';
+import Home from './components/Home/Home';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               {/* putting Navbar in here so it only shows in this route (don't want it in painting and 404) */}
               <Navbar /> 
               {/* for page jumping */}
+              <Home />
               <a id='about'> <About /> </a>
               <a id='experience'> <Experience/> </a>
               <a id='projects'> <Projects /> </a>

@@ -21,6 +21,11 @@ const Experience = () => {
                     <ExperienceItem role="Frontend Developer" date="October 2020 - March 2021" 
                     description="Used JavaScript/HTML/CSS and React.js to build the frontend of web pages.
                     Communicated effectively with designers to ensure the quality of the interface." />
+
+
+<ExperienceItem role="Full Stack Developer" date="August 2021 - March 2021" 
+                    description="Used JavaScript/HTML/CSS and React.js to build the frontend of web pages.
+                    Communicated effectively with designers to ensure the quality of the interface." />
                     
                 </Timeline>
                 </div>
