@@ -1,5 +1,5 @@
 import './App.css';
-import { Redirect, BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Redirect, BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 
 import About from './components/About/About';
@@ -11,10 +11,11 @@ import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 
 
+// BrowserRouter basename="personal-website"
 function App() {
   return (
     <div className='App'>
-      <Router>
+      <BrowserRouter basename="personal-website" > 
           <Switch> 
 
             <Route exact path="/">  
@@ -35,7 +36,7 @@ function App() {
             <Redirect to="*" />
 
           </Switch>
-        </Router>
+        </BrowserRouter>
     </div>
   );
 }

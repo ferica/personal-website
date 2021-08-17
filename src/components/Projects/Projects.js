@@ -20,6 +20,10 @@ const Projects = () => {
                     projectName="Personal Website" 
                     description="Designed and implemented my own personal website to showcase my resume."
                     tools="Javascript, HTML/CSS, React.js"
+                    github={true}
+                    githubLink="https://github.com/ferica/personal-website"
+                    view={true}
+                    viewLink="/personal-website"
                      />
 
                     <ProjectItem image={Ecommerce_Image} 

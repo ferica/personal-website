@@ -1,6 +1,6 @@
 import './Navbar.css';
 
-import {Link} from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoClose } from 'react-icons/io5';
 import { IconContext } from "react-icons"; // for react icon styling
@@ -44,7 +44,7 @@ const Navbar = () => {
 
     return (
         <div className="nav-container">
-            <p id="logo"><a href="/"><FavoriteIcon /></a></p>
+            <p id="logo"><a href="/personal-website"><FavoriteIcon /></a></p>
             
             {/* when in tablet/mobile view */}
             { menuIsOpen ? 
@@ -55,10 +55,10 @@ const Navbar = () => {
 
                     <nav className="mobile-links">
                         <ul onClick={closeMenu}> 
-                            <li><a href='/#about'>About</a></li>
-                            <li><a href='/#experience'>Experience</a></li>
-                            <li><a href='/#projects'>Projects</a></li>
-                            <li><a href='/#contact'>Contact</a></li>
+                            <li><Link to="/#about">About</Link></li>
+                            <li><Link to="/#experience">Experience</Link></li>
+                            <li><Link to="/#projects">Projects</Link></li>
+                            <li><Link to="/#contact">Contact</Link></li>
                             <li><button id='resume-btn' onClick={() => openInNewTab('https://docs.google.com/document/d/12dH9-D-9Cgz3IPD_GFRjEJy-EsVO_1lgg1gkc_2A968/edit?usp=sharing')}> Resume </button></li>
                         </ul>
                     </nav>
@@ -74,10 +74,14 @@ const Navbar = () => {
             {/* when in desktop view */}
             <nav className="links">
                 <ul>
-                    <li><a href='/#about'>About</a></li>
+                    <li><Link to="/#about">About</Link></li>
+                    <li><Link to="/#experience">Experience</Link></li>
+                    <li><Link to="/#projects">Projects</Link></li>
+                    <li><Link to="/#contact">Contact</Link></li>
+                    {/* <li><a href='/#about'>About</a></li>
                     <li><a href='/#experience'>Experience</a></li>
                     <li><a href='/#projects'>Projects</a></li>
-                    <li><a href='/#contact'>Contact</a></li>
+                    <li><a href='/#contact'>Contact</a></li> */}
                     <button id='resume-btn' onClick={() => openInNewTab('https://docs.google.com/document/d/12dH9-D-9Cgz3IPD_GFRjEJy-EsVO_1lgg1gkc_2A968/edit?usp=sharing')}> Resume </button>
                 </ul>
             </nav>
