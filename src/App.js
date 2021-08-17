@@ -16,6 +16,7 @@ function App() {
     <div className='App'>
       <Router>
           <Switch> 
+
             <Route exact path="/">  
               {/* putting Navbar in here so it only shows in this route (don't want it in painting and 404) */}
               <Navbar /> 
