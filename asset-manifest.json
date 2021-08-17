@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.77896f1b.chunk.css",
+    "main.js": "/personal-website/static/js/main.b6ded75b.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.b6ded75b.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.812bcf9e.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.812bcf9e.js.map",
+    "static/js/2.7927f9bb.chunk.js": "/personal-website/static/js/2.7927f9bb.chunk.js",
+    "static/js/2.7927f9bb.chunk.js.map": "/personal-website/static/js/2.7927f9bb.chunk.js.map",
+    "static/js/3.20e7ff9c.chunk.js": "/personal-website/static/js/3.20e7ff9c.chunk.js",
+    "static/js/3.20e7ff9c.chunk.js.map": "/personal-website/static/js/3.20e7ff9c.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "static/css/main.77896f1b.chunk.css.map": "/personal-website/static/css/main.77896f1b.chunk.css.map",
+    "static/js/2.7927f9bb.chunk.js.LICENSE.txt": "/personal-website/static/js/2.7927f9bb.chunk.js.LICENSE.txt",
+    "static/media/Ecommerce_Image.962288da.PNG": "/personal-website/static/media/Ecommerce_Image.962288da.PNG",
+    "static/media/Ferica.6737a761.jpg": "/personal-website/static/media/Ferica.6737a761.jpg",
+    "static/media/Website_Image.50942152.PNG": "/personal-website/static/media/Website_Image.50942152.PNG",
+    "static/media/painting1.ec353354.jpeg": "/personal-website/static/media/painting1.ec353354.jpeg",
+    "static/media/painting2.e5a38157.jpeg": "/personal-website/static/media/painting2.e5a38157.jpeg",
+    "static/media/painting3.259a14a2.jpeg": "/personal-website/static/media/painting3.259a14a2.jpeg",
+    "static/media/painting4.471e92c2.jpeg": "/personal-website/static/media/painting4.471e92c2.jpeg",
+    "static/media/painting5.8a134c86.jpeg": "/personal-website/static/media/painting5.8a134c86.jpeg",
+    "static/media/painting6.3bd07055.jpeg": "/personal-website/static/media/painting6.3bd07055.jpeg",
+    "static/media/painting7.7d0683d4.jpg": "/personal-website/static/media/painting7.7d0683d4.jpg",
+    "static/media/placeholder.7525a700.PNG": "/personal-website/static/media/placeholder.7525a700.PNG",
+    "static/media/Home.css": "/personal-website/static/media/shooting-stars.4dd8275f.gif",
+    "static/media/Painting.css": "/personal-website/static/media/wood.1a6ce2c3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.812bcf9e.js",
+    "static/js/2.7927f9bb.chunk.js",
+    "static/css/main.77896f1b.chunk.css",
+    "static/js/main.b6ded75b.chunk.js"
+  ]
+}
