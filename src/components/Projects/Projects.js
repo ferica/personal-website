@@ -19,10 +19,8 @@ const Projects = () => {
                     <ProjectItem image={Website_Image} 
                     projectName="Personal Website" 
                     description="Designed and implemented my own personal website to showcase my resume."
-                    tools="Javascript, HTML/CSS, React.js, Figma"
-                    github={true} view={true} 
-                    githubLink="https://github.com/ferica/personal-website"
-                    viewLink="/" />
+                    tools="Javascript, HTML/CSS, React.js"
+                     />
 
                     <ProjectItem image={Ecommerce_Image} 
                     projectName="Ecommerce" 
