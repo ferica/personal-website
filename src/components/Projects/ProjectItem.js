@@ -65,6 +65,7 @@ const ProjectItem = (props) => {
                   <img src={props.image} alt='image'/>
                   <div className="card-text">
                       <h4>{props.projectName}</h4>
+                      <p id="category">{props.category}</p>
                       <button onClick={openModal}>View details</button>
                   </div>
               </div>

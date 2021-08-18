@@ -113,7 +113,7 @@
     animation-fill-mode: forwards;
   } */
   .content p:nth-child(2) {
-    width: 7.3em;
+    width: 10em;
     opacity: 0;
     -webkit-animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
     animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
@@ -124,7 +124,7 @@
 
     font-size: 30px;
     color: rgba(128, 128, 128, 0.664);
-    padding-left: 70px;
+    padding-left: 30px;
     margin-top: -50px;
   }
 

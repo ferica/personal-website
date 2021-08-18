@@ -9,15 +9,9 @@ const Home = () => {
         <div className="home-page">
             <div className="home-container">
 
-                {/* <div className="wrapper">
-                    <div className="typing-container">
-                        <p className="typing-text">Hi, I'm Ferica.</p> 
-                    </div>
-                </div> */}
-
                 <div className="content">
                     <p className="typed">Hi, I'm Ferica.</p>
-                    <p className="typed">// I code ideas.</p>
+                    <p className="typed">// I bring ideas to life.</p>
 
                     <div className="icons-container">
                         <a href="https://www.linkedin.com/in/ferica-ting-6141511b0/"><LinkedInIcon className="icon" id="linkedin" fontSize="large"/></a>

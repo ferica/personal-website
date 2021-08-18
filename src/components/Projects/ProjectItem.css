@@ -80,11 +80,22 @@
   /* make images the same size */
   width:250px;
   height:250px;
-  object-fit:cover;
+  object-fit:cover; /* maintain aspect ratio of image */
 }
 
 .card-text {
-  padding: 2px 16px;
+  padding: 10px 20px;
+}
+
+.card-text h4 {
+  margin: 0;
+}
+
+.card-text #category {
+  color: grey;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 0;
 }
 
 .indiv-card {

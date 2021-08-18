@@ -14,14 +14,15 @@ const About = () => {
            
                     <div>
                         <p id='name'>Ferica Ting</p>
-                        <p id='caption'> Computer Science Student at UC Davis </p>
+                        <p id='caption'> CS @ UC Davis | Class of 2023 </p>
                     </div>
                 </div>
               
                 <p id='intro'>
-                    Hi! I'm currently an undergraduate double majoring in Computer Science and Cognitive Science at <a href="https://www.ucdavis.edu/">UC Davis</a>.<br/><br/>
+                    Hi! I'm currently a third year undergraduate double majoring in Computer Science and Cognitive Science at <a href="https://www.ucdavis.edu/">UC Davis</a>.<br/><br/>
 
                     I'm interested in how humans interact with technology and using that knowledge to implement a user-friendly reality. 
+                    I love learning new technologies to incorporate into my solutions.
                     My aspirations lie in, but are not limited to, software, web development, UI/UX and HCI.<br/><br/>
 
                     Something I enjoy doing during my free time is <Link exact to='/painting'>painting</Link>!<br/>
