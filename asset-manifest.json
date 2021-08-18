@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.fb387742.chunk.css",
-    "main.js": "/personal-website/static/js/main.0daf3b81.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.0daf3b81.chunk.js.map",
+    "main.css": "/personal-website/static/css/main.c97a78d4.chunk.css",
+    "main.js": "/personal-website/static/js/main.901955c3.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.901955c3.chunk.js.map",
     "runtime-main.js": "/personal-website/static/js/runtime-main.13dfcc25.js",
     "runtime-main.js.map": "/personal-website/static/js/runtime-main.13dfcc25.js.map",
     "static/js/2.20e0fac1.chunk.js": "/personal-website/static/js/2.20e0fac1.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.86057636.chunk.js": "/personal-website/static/js/3.86057636.chunk.js",
     "static/js/3.86057636.chunk.js.map": "/personal-website/static/js/3.86057636.chunk.js.map",
     "index.html": "/personal-website/index.html",
-    "static/css/main.fb387742.chunk.css.map": "/personal-website/static/css/main.fb387742.chunk.css.map",
+    "static/css/main.c97a78d4.chunk.css.map": "/personal-website/static/css/main.c97a78d4.chunk.css.map",
     "static/js/2.20e0fac1.chunk.js.LICENSE.txt": "/personal-website/static/js/2.20e0fac1.chunk.js.LICENSE.txt",
     "static/media/Ecommerce_Image.962288da.PNG": "/personal-website/static/media/Ecommerce_Image.962288da.PNG",
     "static/media/Ferica.6737a761.jpg": "/personal-website/static/media/Ferica.6737a761.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.13dfcc25.js",
     "static/js/2.20e0fac1.chunk.js",
-    "static/css/main.fb387742.chunk.css",
-    "static/js/main.0daf3b81.chunk.js"
+    "static/css/main.c97a78d4.chunk.css",
+    "static/js/main.901955c3.chunk.js"
   ]
 }
