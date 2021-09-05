@@ -3,8 +3,6 @@ import ProjectItem from './ProjectItem';
 import Website_Image from './Website_Image.PNG';
 import Ecommerce_Image from './Ecommerce_Image.PNG';
 import placeholder from './placeholder.PNG';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import CallMadeIcon from '@material-ui/icons/CallMade';
 
 
 const Projects = () => {
@@ -23,8 +21,8 @@ const Projects = () => {
                     tools="Javascript, HTML/CSS, React.js"
                     github={true}
                     githubLink="https://github.com/ferica/personal-website"
-                    view={true}
-                    viewLink="/personal-website"
+                    external={true}
+                    externalLink="/personal-website"
                      />
 
                     <ProjectItem image={Ecommerce_Image} 

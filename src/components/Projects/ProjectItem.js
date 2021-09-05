@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import CallMadeIcon from '@material-ui/icons/CallMade';
 import LocalOfferIcon from '@material-ui/icons/LocalOffer';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 
 const ProjectItem = (props) => {
@@ -50,10 +51,10 @@ const ProjectItem = (props) => {
     }
 
     // want to show callmade icon or not
-    function View(props) {
+    function External(props) {
         const icon = props.icon;
         if (icon) {
-            return <CallMadeIcon fontSize="small" />
+            return <FaExternalLinkAlt />
         }
         return null;
     }
@@ -81,7 +82,7 @@ const ProjectItem = (props) => {
                     <p className="tools"><span id="tag-icon"><LocalOfferIcon className={classes.tagIcon}/></span><span>{props.tools}</span></p>
                     <div className="icons">
                         <a href={props.githubLink}><Github icon={props.github} /></a>
-                        <a href={props.viewLink}><View icon={props.view} /></a> 
+                        <a href={props.externalLink}><External icon={props.external} /></a> 
                     </div>
                 </div>
             </div> : null}
